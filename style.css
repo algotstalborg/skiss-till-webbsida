@@ -1,0 +1,19 @@
+body {
+    background-color: #211612;
+    display: flex;
+}
+
+.hero, article {
+    background-color: #F4F3EF;
+}
+
+footer {
+    background-color: #8565d6;
+}
+
+nav {
+    color: #F4F3EF;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
