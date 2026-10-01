@@ -1,6 +1,13 @@
+@font-face {
+    font-family: avenir;
+    src: url("./fonts/Avenir.ttc");
+}
+
 body {
+    margin: 0;
     background-color: #211612;
     display: flex;
+    flex-wrap: wrap;
 }
 
 header {
@@ -8,7 +15,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 54px;
+    padding: 2.8vw;
     width: 100vw;
 }
 
@@ -26,14 +33,6 @@ section.logo img.slogan{
     width: 14.5vw;
 }
 
-.hero, article {
-    background-color: #F4F3EF;
-}
-
-footer {
-    background-color: #8565d6;
-}
-
 nav {
     color: #F4F3EF;
     display: flex;
@@ -44,9 +43,23 @@ nav {
 }
 nav p {
     font-size: 1.5rem;
+    font-family: avenir;
 }
 
 nav p:hover {
     border-bottom: 2px solid #8565d6;
     padding-top: 2px;
 }
+
+section.hero img{
+    max-width: 58.4vw;
+}
+
+.hero, article {
+    background-color: #F4F3EF;
+}
+
+footer {
+    background-color: #8565d6;
+}
+
