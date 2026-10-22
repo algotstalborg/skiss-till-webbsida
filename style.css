@@ -3,6 +3,11 @@
     src: url("./fonts/Avenir.ttc");
 }
 
+p, h1, h2, time{
+    font-family: avenir;
+}
+
+
 body {
     margin: 0;
     background-color: #211612;
@@ -41,9 +46,9 @@ nav {
     gap: 74px;
     align-items: center;
 }
+
 nav p {
     font-size: 1.5rem;
-    font-family: avenir;
 }
 
 nav p:hover {
@@ -51,8 +56,31 @@ nav p:hover {
     padding-top: 2px;
 }
 
+.hero {
+    display: flex;
+    width: 100vw;
+}
+
+.hero p, .hero h1, .hero time{
+    font-weight: bold;
+}
+
+.buttons a{
+    text-decoration: none;
+}
+.buttons a:hover{
+    border-bottom: 2px solid #8565d6;
+    padding-top: 2px;
+}
+
+section.hero article{
+    width: 60vw;
+}
+
 section.hero img{
-    max-width: 58.4vw;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .hero, article {
@@ -63,3 +91,18 @@ footer {
     background-color: #8565d6;
 }
 
+.buttons p{
+    color:#211612;
+}
+
+.purple p {
+    color: #F4F3EF;
+}
+
+.purple {
+    background-color: #8565d6;
+}
+
+.info p {
+    color: #8565d6;
+}
